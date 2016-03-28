@@ -7,7 +7,9 @@ See: <https://spring.io/blog/2014/07/24/spring-framework-4-1-handling-static-web
 * The client was created using the Yeoman generator: Gulp Angular
 
 Using the frontend maven plugin, we can utilise powerful front-end build tools (gulp, bower, npm, etc..) as part of
-the maven build process. The main thing to get out of this project is how the pom.xml files are setup between the root, client, and server. The client is able to kick off its gulp builds to inject depedencies, build sass css, and minify js & css into a dist folder which is then ready for the server module. The server is then able to build the war with all javascript assembled and optimized. Keeping the client & server split lets you use yeoman generators for the front-end where the build process can be very complicated.
+the maven build process. The main thing to get out of this project is how the pom.xml files are setup between the root, client, and server. The client is able to kick off its gulp builds to inject depedencies, build sass css, and minify js & css into a dist folder which is then ready for the server module. The server is then able to build the war with all javascript assembled and optimized. 
+
+Keeping the client & server split lets you use yeoman generators for the front-end where the build process can be very complicated.
 
 ##Setup
 To build and run completely from maven (you may need maven 3.3+ installed):
