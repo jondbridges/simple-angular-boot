@@ -13,7 +13,7 @@ the maven build process.
 To build and run completely from maven (you may need maven 3.3+ installed):
 
 1. Run ```mvn install``` in root of directory. This will kick off the front-end and back-end build process.
-2. ```cd server``` then execute the command ```mvn spring-boot run```.
+2. ```cd server``` then execute the command ```mvn spring-boot:run```.
 
 Running the generated client separately for auto-reload involves:
 
