@@ -1,6 +1,6 @@
 #Client/Server Setup of a SpringBoot & Angular App
 
-Spring developers recommend a Client/Server architecture to creating a SpringBoot / SPA application.
+Spring developers recommend a Client/Server architecture for creating a SpringBoot / SPA application.
 See: <https://spring.io/blog/2014/07/24/spring-framework-4-1-handling-static-web-resources>
 
 * The server is a vanilla SpringBoot app.
